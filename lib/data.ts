@@ -1,6 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+// import { CgWorkAlt } from "react-icons/cg";
+// import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import givingly from "@/public/givingly.png"
 import nominator from "@/public/nominator.png"
@@ -37,29 +37,28 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
-        description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+        title: "Akbank React Bootcamp – Patika.dev",
+        location: "Online",
+        description: "Completed a 7-week compelling React bootcamp with a low acceptance rate opened only for women by Akbank. Worked with styled-components and various industry standards in JavaScript,Typescript, and React.",
         icon: React.createElement(LuGraduationCap),
-        date: "2019",
+        date: "August 2022 – October 2022",
     },
     {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
+        title: "Computer Programming - Anadolu University Open Education Faculty",
+        location: "Online",
         description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-        icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
+            "ntroductory training in Java, Python, Ruby, C#, .NET, Ruby on Rails, and PHP languages as part of the Second University program.",
+        icon: React.createElement(LuGraduationCap),
+        date: "October 2022 - present",
     },
     {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
-        description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: "2021 - present",
+        title: "Frontend Web Development Bootcamp - Re:Coded",
+        location: "Online",
+        description: "Completed a 4.5-month immersive web development bootcamp, with 300+ hours of curricula and project-based learning Worked with various development teams to create products across industries with HTML, CSS, JavaScript, React, Next.js technologies.",
+        icon: React.createElement(LuGraduationCap),
+        date: "March 2023 – September 2023",
     },
+
 ] as const;
 
 export const projectsData = [
@@ -107,17 +106,12 @@ export const skillsData = [
     "TypeScript",
     "React",
     "Next.js",
-    "Node.js",
-    "Git",
     "Tailwind",
-    "Prisma",
-    "MongoDB",
+    "Bootstrap",
     "Redux",
-    "GraphQL",
-    "Apollo",
-    "Express",
-    "PostgreSQL",
-    "Python",
-    "Django",
+    "Firebase",
+    "Docker",
     "Framer Motion",
+    "WordPress",
+    "i18next Internationalization"
 ] as const;
