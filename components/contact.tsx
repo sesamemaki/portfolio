@@ -29,7 +29,7 @@ export default function Contact() {
         or through this form.
       </p>
       <form
-        className="mt-10 flex flex-col dark:text-black"
+        className="mt-10 flex flex-col it dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
           if (error) {
@@ -54,7 +54,9 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        <SubmitBtn />
+        <div className="flex items-center justify-center">
+          <SubmitBtn />
+        </div>
       </form>
     </motion.section>
   );

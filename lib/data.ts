@@ -47,7 +47,7 @@ export const experiencesData = [
         title: "Computer Programming - Anadolu University Open Education Faculty",
         location: "Online",
         description:
-            "ntroductory training in Java, Python, Ruby, C#, .NET, Ruby on Rails, and PHP languages as part of the Second University program.",
+            "Introductory training in Java, Python, Ruby, C#, .NET, Ruby on Rails, and PHP languages as part of the Second University program.",
         icon: React.createElement(LuGraduationCap),
         date: "October 2022 - present",
     },
@@ -93,7 +93,7 @@ export const projectsData = [
     {
         title: "3D Cube",
         description:
-            " Created an animated cube that continuously rotates and pops up when clicking.",
+            "Created an animated cube that continuously rotates and pops up when clicking.",
         tags: ["React", "Bootstrap", "CSS"],
         imageUrl: cube,
     }
