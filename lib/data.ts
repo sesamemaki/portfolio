@@ -68,6 +68,7 @@ export const projectsData = [
             "Developed a crowdfunding platform with Next.js and related technologies as a Re:Coded graduation project. It has features showcasing goals and progress, browsing by category, user authentication, providing multiple language.",
         tags: ["React", "Next.js", "Tailwind", "Firebase", "i18next"],
         imageUrl: givingly,
+        projectUrl: "https://cut.lu/ifrwj1"
     },
     {
         title: "Nominator",
@@ -75,6 +76,7 @@ export const projectsData = [
             "Created a movie nomination app by fetching OMDB API. It has features implemented search movies by name.",
         tags: ["React", "Next.js", "Tailwind"],
         imageUrl: nominator,
+        projectUrl: "http://cut.lu/ua8ora"
     },
     {
         title: "Movie DB",
@@ -82,13 +84,15 @@ export const projectsData = [
             "Created a movie database app by fetching TMDB API. It has features implemented search and filtering movies and cast by genres",
         tags: ["Javascript", "Bootstrap"],
         imageUrl: movie,
+        projectUrl: "http://cut.lu/yvtcqw"
     },
     {
         title: "Hangman",
         description:
-            "Created a hangman game by fetching Random Word API. The random word is search through to find if it contains the clicked letter, if the clicked letter is part of the random word's letters then it gets shown up instead of the space, if not, then the lives counter is decreased by one. If the lives counter reaches 0 then the game is over and the hangman should be HANGED.",
+            "Created a hangman game by fetching Random Word API. The random word is search through to find if it contains the clicked letter, if the clicked letter is part of the random word's letters then it gets shown up instead of the space, if not, then the lives counter is decreased by one.",
         tags: ["Javascript", "Tailwind"],
         imageUrl: hangman,
+        projectUrl: "https://cut.lu/uvmm0p"
     },
     {
         title: "3D Cube",
@@ -96,6 +100,7 @@ export const projectsData = [
             "Created an animated cube that continuously rotates and pops up when clicking.",
         tags: ["React", "Bootstrap", "CSS"],
         imageUrl: cube,
+        projectUrl: "https://cut.lu/1lfl7g"
     }
 ] as const;
 
