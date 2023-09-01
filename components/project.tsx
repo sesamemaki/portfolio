@@ -47,7 +47,7 @@ export default function Project({
             ))}
           </ul>
         </div>
-        <Link href={`${projectUrl}`}>
+        <Link href={`${projectUrl}`} target="_blank">
           <>
             <Image
               src={imageUrl}
