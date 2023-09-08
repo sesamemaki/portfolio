@@ -74,8 +74,7 @@ export default function Intro() {
         }}
       >
         Hello, I'm Burcu. A <span className="font-bold">self-taught</span>{" "}
-        Front-End Web Developer with a background in biology-related career.
-        Proficient in HTML, CSS,{" "}
+        Front-End Web Developer, proficient in HTML, CSS,{" "}
         <span className="font-bold">JavaScript, React, and Next.js</span> with a
         strong focus on delivering responsive and accessible designs.
       </motion.h1>
