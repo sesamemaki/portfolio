@@ -3,6 +3,8 @@
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { LuFileEdit } from "react-icons/lu";
+
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -40,9 +42,8 @@ export default function About() {
         </span>
         . As a request, I{" "}
         <span className="underline">
-          helped people to renew time tracking application website written with
-          old technologies and to make a website contains a 3D cube that
-          constantly returns
+          helped people to renew time-tracking application website written with
+          old technologies, to make a website contains a 3D cube that constantly returns and with open-source collaboration.
         </span>
         .
       </p>
