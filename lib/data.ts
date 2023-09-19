@@ -1,7 +1,7 @@
 import React from "react";
 // import { CgWorkAlt } from "react-icons/cg";
 // import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuGraduationCap, LuFileEdit } from "react-icons/lu";
 import givingly from "@/public/givingly.png"
 import nominator from "@/public/nominator.png"
 import movie from "@/public/movie.png"
@@ -57,6 +57,13 @@ export const experiencesData = [
         description: "Completed a 4.5-month immersive web development bootcamp, with 300+ hours of curricula and project-based learning Worked with various development teams to create products across industries with HTML, CSS, JavaScript, React, Next.js technologies.",
         icon: React.createElement(LuGraduationCap),
         date: "March 2023 – September 2023",
+    },
+    {
+        title: "MDN Web Docs",
+        location: "Open-source Contribution",
+        description: "Contributed to the content behind MDN Web Docs. Macro order has been rearranged for a better user experience.",
+        icon: React.createElement(LuFileEdit),
+        date: "September 2023 – Present ",
     },
 
 ] as const;
