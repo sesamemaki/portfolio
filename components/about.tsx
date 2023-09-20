@@ -40,10 +40,9 @@ export default function About() {
         <span className="italic">
           Javascript, Typescript, React, and Next.js
         </span>
-        . As a request, I{" "}
+        . I{" "}
         <span className="underline">
-          helped people to renew time-tracking application website written with
-          old technologies, to make a website contains a 3D cube that constantly returns and with open-source contribution
+          helped people to renew time-tracking web application written with old technologies, to make a website contains a 3D cube that constantly returns and with open-source contribution
         </span>
         .
       </p>
