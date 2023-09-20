@@ -43,7 +43,7 @@ export default function About() {
         . As a request, I{" "}
         <span className="underline">
           helped people to renew time-tracking application website written with
-          old technologies, to make a website contains a 3D cube that constantly returns and with open-source collaboration.
+          old technologies, to make a website contains a 3D cube that constantly returns and with open-source contribution.
         </span>
         .
       </p>
