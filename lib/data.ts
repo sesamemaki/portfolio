@@ -2,6 +2,7 @@ import React from "react";
 // import { CgWorkAlt } from "react-icons/cg";
 // import { FaReact } from "react-icons/fa";
 import { LuGraduationCap, LuFileEdit } from "react-icons/lu";
+import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import givingly from "@/public/givingly.png"
 import nominator from "@/public/nominator.png"
 import movie from "@/public/movie.png"
@@ -64,6 +65,13 @@ export const experiencesData = [
         description: "Contributed to the content behind MDN Web Docs. Macro order has been rearranged for a better user experience.",
         icon: React.createElement(LuFileEdit),
         date: "September 2023 – Present ",
+    },
+    {
+        title: "Fabrikafa",
+        location: "Frontend Web Developer",
+        description: "Implemented and maintained front-end web applications by utilizing modern web technologies such as React.js and best practices for user experience and accessibility.",
+        icon: React.createElement(HiOutlineComputerDesktop),
+        date: "November 2023 – Present ",
     },
 
 ] as const;
